@@ -3,8 +3,19 @@
 <head>
 <meta charset="utf-8">
 <title>Porcupine's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Welcome to the website of the porcupine!</h1>
+     <div class="game-container">
+        <div class="score-container">
+            分数: <span id="score">0</span>
+        </div>
+        <div class="game-board" id="game-board">
+            <!-- 这里将动态生成游戏单元格 -->
+        </div>
+    </div>
+    <script src="game.js"></script>
 </body>
 </html>
